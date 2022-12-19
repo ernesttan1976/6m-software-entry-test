@@ -11,8 +11,16 @@
 
 function swap(x, y){
     // Task 1: Add code here
+    if ((typeof x === 'number') &&  (typeof y === 'number') {
+        var temp = x;
+        x = y;
+        y = temp;    
+        } else {
+        return -1;
+    }
 }
 
 // Task 2: Add code here
-
+alert(swap(5,10));
+alert(swap("5",10));
 module.exports = swap;
