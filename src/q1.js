@@ -11,10 +11,8 @@
 
 function swap(x, y){
     // Task 1: Add code here
-    if ((typeof x === 'number') &&  (typeof y === 'number') {
-        var temp = x;
-        x = y;
-        y = temp;    
+    if ((typeof x === 'number') &&  (typeof y === 'number')) {
+        [y,x]=[x,y];    
         } else {
         return -1;
     }
