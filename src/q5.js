@@ -6,5 +6,6 @@
 */
 
 // Task 1: Add code here
-
+import {printSomething as print} from "external.js";
 print();
+
