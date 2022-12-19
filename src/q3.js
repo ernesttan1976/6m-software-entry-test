@@ -7,9 +7,14 @@
 */
 
 const dog = {
-    petName:"Bobby"
+    petName:"Bobby",
+    breed:"Poodle"
 }
 
 // Task 1: Add code here
 
 // Task 2: Add code here
+
+for (const key in dog){
+    console.log(key + ":" + dog[key]);
+}
